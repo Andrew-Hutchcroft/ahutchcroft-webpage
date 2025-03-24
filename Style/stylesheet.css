@@ -1,0 +1,10 @@
+body {
+  background-color: pink;
+  color: green;
+  width: 100%;
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+}
