@@ -1,15 +1,28 @@
-# System files
+# hidden Mac file of cached metadata when Finder is used to browse folders
 .DS_Store
-Thumbs.db
 
-# VS Code settings
-.vscode/
 
-# Logs
-*.log
+#VS Code workspace file
+.VSCode
 
-# Node.js (if using)
-node_modules/
 
-# Environment files
+#Python dotenv file
 .env
+
+#Python virtual environment
+venv/
+
+#Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+#R
+.Rproj.user
+.Rdata
+.Rhistory
+
+
+#environment file for AWS Beanstalk
+.ebextensions/environment_variables.config
