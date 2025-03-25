@@ -1,12 +1,12 @@
 body {
   background-color: #bfefff;
-  color: #charcoal gray;
+  color: #232e35;
   width: 100%;
 }
 
 img {
   max-width: 200px;
-  max-height: auto;
+  height: auto;
 }
 
 table {
