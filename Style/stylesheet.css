@@ -43,3 +43,61 @@ thead {
 .info {
   background-color: lightblue;
 }
+
+.right-align {
+  text-align: left;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: 0;
+  background-color: inherit;
+  padding: 0;
+  border: none;
+}
+
+.favorites-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.favorites-section {
+  width: 45%;
+}
+
+.favorites-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.favorites-section {
+  width: 45%;
+}
+
+.songs-right {
+  text-align: right;
+}
+
+/* Footer pinned to bottom */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+#container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+}
